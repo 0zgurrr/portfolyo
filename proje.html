@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulusoy | Yazılım Mühendisi</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Tüm sayfaya resmi fontu uyguluyoruz */
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #0f172a; }
+        /* Yumuşak geçiş efektleri */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <nav class="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tight text-slate-800">
+                Ulusoy<span class="text-blue-600">.</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
+                <a href="#hakkimda" class="hover:text-blue-600 transition">Hakkımda</a>
+                <a href="#egitim" class="hover:text-blue-600 transition">Eğitim</a>
+                <a href="#yetenekler" class="hover:text-blue-600 transition">Yetkinlikler</a>
+                <a href="#iletisim" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition shadow-sm">
+                    İletişime Geç
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-16 md:py-24">
+        
+        <section id="hakkimda" class="mb-24">
+            <div class="inline-block px-3 py-1 mb-6 text-xs font-semibold text-blue-700 bg-blue-50 border border-blue-200 rounded-full">
+                Yazılım Geliştiricisi
+            </div>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-slate-900">
+                Ölçeklenebilir sistemler ve <br class="hidden md:block">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
+                    güvenli mimariler
+                </span> tasarlıyorum.
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl leading-relaxed mb-10">
+                Modern yazılım teknolojileri, veri yapıları ve güvenli kodlama standartları üzerine akademik ve pratik çalışmalar yürütüyorum. Problem çözme odaklı analitik bir yaklaşım benimsiyorum.
+            </p>
+            <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#projeler" class="px-7 py-3.5 bg-slate-900 text-white font-medium rounded-lg hover:bg-slate-800 transition shadow-md text-center inline-block">
+                    Projeleri İncele
+                </a>
+            </div>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            <section id="egitim">
+                <h2 class="text-2xl font-bold mb-8 pb-3 border-b border-slate-200 text-slate-800">Akademik Geçmiş</h2>
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition">
+                    <div class="flex flex-col sm:flex-row justify-between sm:items-center mb-4">
+                        <h3 class="text-lg font-bold text-slate-900">Fırat Üniversitesi</h3>
+                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200 mt-2 sm:mt-0 w-max">
+                            Lisans - Devam Ediyor
+                        </span>
+                    </div>
+                    <p class="text-blue-600 font-medium mb-5">Yazılım Mühendisliği</p>
+                    
+                    <div class="space-y-3">
+                        <p class="text-sm font-semibold text-slate-700">Odaklanılan Temel Disiplinler:</p>
+                        <ul class="text-sm text-slate-600 space-y-2">
+                            <li class="flex items-start"><span class="mr-2 text-slate-400">•</span> Algoritmalar ve Veritabanı Sistemleri</li>
+                            <li class="flex items-start"><span class="mr-2 text-slate-400">•</span> Bilgisayar Bilimleri Temelleri (Sayı Sistemleri)</li>
+                            <li class="flex items-start"><span class="mr-2 text-slate-400">•</span> Analitik Matematik (Kalkülüs) ve Fizik</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="yetenekler">
+                <h2 class="text-2xl font-bold mb-8 pb-3 border-b border-slate-200 text-slate-800">Teknik Yetkinlikler</h2>
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition grid grid-cols-2 gap-8">
+                    
+                    <div>
+                        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Geliştirme</h3>
+                        <ul class="space-y-3 text-sm font-medium text-slate-700">
+                            <li class="flex items-center"><div class="w-2 h-2 bg-blue-500 rounded-sm mr-3"></div> Java</li>
+                            <li class="flex items-center"><div class="w-2 h-2 bg-blue-500 rounded-sm mr-3"></div> Python</li>
+                            <li class="flex items-center"><div class="w-2 h-2 bg-slate-300 rounded-sm mr-3"></div> Web (HTML/CSS)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Uzmanlık</h3>
+                        <ul class="space-y-3 text-sm font-medium text-slate-700">
+                            <li class="flex items-center"><div class="w-2 h-2 bg-indigo-500 rounded-sm mr-3"></div> Siber Güvenlik</li>
+                            <li class="flex items-center"><div class="w-2 h-2 bg-indigo-500 rounded-sm mr-3"></div> Ağ Güvenliği</li>
+                            <li class="flex items-center"><div class="w-2 h-2 bg-slate-300 rounded-sm mr-3"></div> Veritabanı Mimarisi</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </section>
+
+        </div>
+        <section id="projeler" class="mt-24 pt-12 border-t border-slate-200">
+            <h2 class="text-2xl font-bold mb-8 text-slate-800">Siber Güvenlik & Yazılım Çalışmaları</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition group">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded border border-blue-100">Geliştirme Aşamasında</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">VulneraScan: Zafiyet Paneli</h3>
+                    <p class="text-sm text-slate-600 mb-4 leading-relaxed">Küresel CVE (Ortak Güvenlik Açıkları) veritabanından canlı veri çekerek analiz eden, web tabanlı bir tehdit izleme paneli simülasyonu.</p>
+                    <div class="flex space-x-2 text-xs font-medium text-slate-500">
+                        <span class="bg-slate-100 px-2 py-1 rounded">API</span>
+                        <span class="bg-slate-100 px-2 py-1 rounded">JavaScript</span>
+                        <span class="bg-slate-100 px-2 py-1 rounded">Ağ Analizi</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition group">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-lg flex items-center justify-center">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                        </div>
+                        <span class="text-xs font-semibold text-emerald-700 bg-emerald-50 px-2 py-1 rounded border border-emerald-200">Planlanıyor</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition">CipherCraft (Şifreleme Aracı)</h3>
+                    <p class="text-sm text-slate-600 mb-4 leading-relaxed">Temel şifreleme algoritmalarının (Base64, MD5) uygulandığı ve metin (string) işleme mantığının test edildiği kriptografi aracı.</p>
+                    <div class="flex space-x-2 text-xs font-medium text-slate-500">
+                        <span class="bg-slate-100 px-2 py-1 rounded">Java</span>
+                        <span class="bg-slate-100 px-2 py-1 rounded">Python</span>
+                        <span class="bg-slate-100 px-2 py-1 rounded">Kriptografi</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t border-slate-200 mt-12 py-10">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+            <p>&copy; 2026 Ulusoy. Tüm hakları saklıdır.</p>
+            <div class="space-x-4 mt-4 md:mt-0">
+                <a href="#" class="hover:text-slate-900 transition">LinkedIn</a>
+                <a href="#" class="hover:text-slate-900 transition">GitHub</a>
+                <a href="#" class="hover:text-slate-900 transition">E-Posta</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
